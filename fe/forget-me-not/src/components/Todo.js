@@ -4,6 +4,7 @@ export default function Todo({ todo, index, completeTodo, removeTodo }) {
   return (
     <li>
       {todo.text}
+
       <span>
         <button onClick={() => completeTodo(index)}>
           {todo.isCompleted ? "Completed" : "Complete"}
