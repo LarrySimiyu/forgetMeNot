@@ -1,11 +1,19 @@
 {
-  "name": "forget_me_not",
+  "name": "forget-me-not",
   "version": "1.0.0",
-  "description": "back end for todo",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "knex": "^0.21.17",
+    "node": "^15.8.0"
+  }
 }
